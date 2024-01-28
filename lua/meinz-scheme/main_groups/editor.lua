@@ -4,6 +4,7 @@ return {
     -- character under the cursor, not working, maybe due to tmux 
     -- or terminal.app?
     -- Cursor = { ctermfg = c.white_01, ctermbg = c.white_01, }, 
+    CursorLine = { underline = false },
 
     -- For some reason directory is responsible for git blame hash and date?
     -- Mostly Quickfix settings for LSP
