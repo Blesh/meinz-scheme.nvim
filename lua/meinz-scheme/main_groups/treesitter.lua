@@ -1,6 +1,7 @@
 local c = require 'meinz-scheme.colors'
 
 return {
+    -- capture names prefixed with @ are directly usable as highlight groups
     -- Text
     ['@markup'] = { link = 'Normal' }, -- For strings considered markup in a markup language.
     ['@markup.raw'] = { link = 'String' },

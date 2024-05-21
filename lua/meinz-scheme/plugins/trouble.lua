@@ -2,6 +2,8 @@ local c = require 'meinz-scheme.colors'
 
 return {
 
+    -- Signature Help
+    -- LspSignatureActiveParameter = { ctermbg = c.black_01 },
     TroubleNormal = { ctermbg = c.black_01, },
 
     TroubleText = { ctermfg = c.white_02, },
