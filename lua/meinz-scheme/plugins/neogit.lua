@@ -17,30 +17,38 @@ return {
     NeogitRemote = { ctermfg = c.magenta_01},
     NeogitTagName = { ctermfg = c.magenta_01},
 
-    NeogitHunkHeader = { ctermbg = c.black_01, ctermfg = c.yellow_01 },
+    -- NeogitStatusHEAD
     NeogitDiffContext = { ctermbg = c.black_01, ctermfg = c.white_02 },
     NeogitDiffAdd = { ctermfg = c.green_01, ctermbg = c.black_01 },
     NeogitDiffDelete = { ctermfg = c.red_01, ctermbg = c.black_01 },
     NeogitDiffHeader = { ctermbg = c.black_01, ctermfg = c.yellow_01 },
 
-    NeogitHunkHeaderHighlight = { ctermbg = c.black_01, ctermfg = c.yellow_01 },
     NeogitDiffContextHighlight = { ctermbg = c.black_01, ctermfg = c.white_02 },
     NeogitDiffDeleteHighlight = { ctermfg = c.red_01, ctermbg = c.black_01 },
     NeogitDiffAddHighlight = { ctermfg = c.green_01, ctermbg = c.black_01 },
     NeogitDiffHeaderHighlight = { ctermbg = c.black_01, ctermfg = c.yellow_01 },
+    NeogitDiffContextCursor = { link = 'NeogitContextHeaderHighlight' },
+    NeogitDiffAddCursor = { link = 'NeogitDiffAddHighlight' },
+    NeogitDiffDeleteCursor = { link = 'NeogitDiffDeleteHighlight' },
+    NeogitDiffHeaderCursor = { link = 'NeogitDiffHeaderHighlight' },
+    -- This is responsible for the line showing @@ -0,0 +1 @@ when cursor is on the line
+    NeogitHunkHeader = { ctermbg = c.black_01, ctermfg = c.white_02, bold = true },
+    NeogitHunkHeaderHighlight = { ctermbg = c.black_01, ctermfg = c.white_02, bold = true},
+    NeogitHunkHeaderCursor = { link = 'NeogitHunkHeaderHighlight'}, -- NeogitHunkHeaderHighlight' },
 
     -- Section Headers
-    NeogitSectionHeader = { ctermfg = c.cyan_01, bold = true, ctermbg = c.black_01 },
+    NeogitSectionHeader = { ctermfg = c.yellow_01, bold = true, ctermbg = c.black_01 },
     -- Applied to the label on the left of filenames.
-    NeogitChangeModified = { ctermfg = c.yellow_01, ctermbg = c.black_01 },
-    NeogitChangeAdded = { ctermfg = c.green_01, ctermbg = c.black_01 },
-    NeogitChangeDeleted = { ctermfg = c.red_01, ctermbg = c.black_01 },
-    NeogitChangeRenamed = { ctermfg = c.yellow_02, ctermbg = c.black_01 },
-    NeogitChangeUpdated = { ctermfg = c.yellow_01, ctermbg = c.black_01 },
-    NeogitChangeCopied = { ctermfg = c.yellow_01, ctermbg = c.black_01 },
-    NeogitChangeBothModified = { ctermfg = c.yellow_01, ctermbg = c.black_01 },
-    NeogitChangeNewFile = { ctermfg = c.green_01, ctermbg = c.black_01 },
+    NeogitChangeModified = { ctermfg = c.yellow_02, ctermbg = c.black_01, bold = true },
+    NeogitChangeAdded = { ctermfg = c.green_01, ctermbg = c.black_01, bold = true },
+    NeogitChangeDeleted = { ctermfg = c.red_01, ctermbg = c.black_01, bold = true },
+    NeogitChangeRenamed = { ctermfg = c.yellow_02, ctermbg = c.black_01, bold = true },
+    NeogitChangeUpdated = { ctermfg = c.yellow_01, ctermbg = c.black_01, bold = true  },
+    NeogitChangeCopied = { ctermfg = c.yellow_01, ctermbg = c.black_01, bold = true  },
+    NeogitChangeBothModified = { ctermfg = c.yellow_01, ctermbg = c.black_01, bold = true  },
+    NeogitChangeNewFile = { ctermfg = c.green_01, ctermbg = c.black_01, bold = true  },
 
+    -- Status Buffer Label Next to Filenames
     --NeogitPopupSectionTitle = { ctermfg = c.green_01 },
     --NeogitPopupBranchName      Applied to the current branch name for emphasis
     --NeogitPopupBold            Applied on "@{upstream}" and "pushRemote" for

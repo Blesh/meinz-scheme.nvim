@@ -12,8 +12,10 @@ local trouble_hl = require('meinz-scheme.plugins.trouble')
 local telescope_hl = require('meinz-scheme.plugins.telescope')
 local dap_hl = require('meinz-scheme.plugins.dap')
 local neogit = require('meinz-scheme.plugins.neogit')
+local dev_icons = require('meinz-scheme.plugins.dev-icons')
 
-local hl_groups = vim.tbl_extend('force', default_hl, lsp_hl, tree_sitter_hl, nvim_tree_hl, cmp_hl, gitsigns_hl, trouble_hl, telescope_hl, dap_hl, neogit)
+local hl_groups = vim.tbl_extend('force', default_hl, lsp_hl, tree_sitter_hl, nvim_tree_hl, cmp_hl,
+                                 gitsigns_hl, trouble_hl, telescope_hl, dap_hl, neogit, dev_icons)
 
 function M.setup()
     for group, colors in pairs(hl_groups) do

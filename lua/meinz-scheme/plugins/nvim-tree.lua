@@ -14,7 +14,7 @@ return {
     -- Files.
     NvimTreeOpenedFile = { ctermbg = c.black_02 },
     NvimTreeOpenedName = { ctermfg = c.blue_01 },
-    NvimTreeSpecialFile = { ctermfg = c.magenta_02 },
+    NvimTreeSpecialFile = { ctermfg = c.white_02 },
     NvimTreeImageFile = { ctermfg = c.white_02 },
 
     -- Root.
@@ -35,6 +35,7 @@ return {
     -- NvimTreeCursor = { ctermbg = c.none, ctermfg = c.none },
 
     -- Misc.
-    NvimTreeSymlink = { ctermfg = c.blue_01 },
+    NvimTreeSymlink = { ctermfg = c.yellow_01 },
     NvimTreeSymlinkFolderName = { ctermfg = c.cyan_02 },
+    NvimTreeExecFile = { ctermfg = c.blue_01 },
 }

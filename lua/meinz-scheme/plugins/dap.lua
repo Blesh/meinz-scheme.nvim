@@ -2,6 +2,7 @@ local c = require 'meinz-scheme.colors'
 
 return {
     DapBreakPoint = { ctermfg = c.red_02 },
+    DapLogPoint = { ctermfg = c.yellow_01 },
     DapUINormal = { ctermbg = c.black_01 },
 
     DapUIStop = { ctermfg = c.red_02, bold = true },
