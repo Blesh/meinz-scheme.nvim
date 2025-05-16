@@ -6,25 +6,25 @@ return {
     NvimTreeNormalNC = { ctermfg = c.white_02, ctermbg = c.black_01 },
 
     -- Folders.
-    NvimTreeFolderName = { ctermfg = c.blue_01 },
-    NvimTreeOpenedFolderName = { ctermfg = c.blue_01 },
-    NvimTreeEmptyFolderName = { ctermfg = c.blue_01 },
-    NvimTreeFolderIcon = { ctermfg = c.yellow_01},
+    NvimTreeFolderName = { ctermfg = c.blue },
+    NvimTreeOpenedFolderName = { ctermfg = c.blue },
+    NvimTreeEmptyFolderName = { ctermfg = c.blue },
+    NvimTreeFolderIcon = { ctermfg = c.yellow},
 
     -- Files.
     NvimTreeOpenedFile = { ctermbg = c.black_02 },
-    NvimTreeOpenedName = { ctermfg = c.blue_01 },
+    NvimTreeOpenedName = { ctermfg = c.blue },
     NvimTreeSpecialFile = { ctermfg = c.white_02 },
     NvimTreeImageFile = { ctermfg = c.white_02 },
 
     -- Root.
-    NvimTreeRootFolder = { ctermfg = c.yellow_01, bold = true, underline = true },
+    NvimTreeRootFolder = { ctermfg = c.yellow, bold = true, underline = true },
 
     -- Git.
-    NvimTreeGitDirty = { ctermfg = c.yellow_02 },
-    NvimTreeGitNew = { ctermfg = c.green_02 },
-    NvimTreeGitDeleted = { ctermfg = c.red_02 },
-    NvimTreeGitStaged = { ctermfg = c.green_01 },
+    NvimTreeGitDirty = { ctermfg = c.orange },
+    NvimTreeGitNew = { ctermfg = c.green },
+    NvimTreeGitDeleted = { ctermfg = c.red },
+    NvimTreeGitStaged = { ctermfg = c.green },
 
     -- UI.
     -- NvimTreeIndentMarker = { ctermfg = c.black_02 },
@@ -35,7 +35,7 @@ return {
     -- NvimTreeCursor = { ctermbg = c.none, ctermfg = c.none },
 
     -- Misc.
-    NvimTreeSymlink = { ctermfg = c.yellow_01 },
-    NvimTreeSymlinkFolderName = { ctermfg = c.cyan_02 },
-    NvimTreeExecFile = { ctermfg = c.blue_01 },
+    NvimTreeSymlink = { ctermfg = c.yellow },
+    NvimTreeSymlinkFolderName = { ctermfg = c.cyan },
+    NvimTreeExecFile = { ctermfg = c.blue },
 }

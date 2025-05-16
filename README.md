@@ -1,2 +1,2 @@
-Color scheme derived from [nordic.nvim](https://github.com/AlexvZyl/nordic.nvim) using ANSI color codes defined in the **terminal.app** preferences as true colors are not supported by default.
+Color scheme derived from [Everforest](https://github.com/sainnhe/everforest/blob/master/palette.md) working for true color terminal emulators like `alacritty` as well as non-true color terminal emulators like `terminal.app` on macOS.
 

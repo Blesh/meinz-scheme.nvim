@@ -13,9 +13,9 @@ return {
     -- currently selected result
     TelescopeSelection = { ctermbg = c.black_02, ctermfg = c.white_02, bold = true},
     -- Caret in results selection
-    TelescopeSelectionCaret = { ctermfg = c.yellow_01, ctermbg = c.black_02, bold = true },
-    TelescopePromptPrefix = { ctermbg = c.black_01, ctermfg = c.yellow_01 },
-    TelescopePromptCounter = { ctermfg = c.yellow_01, ctermbg = c.black_01},
-    TelescopeMatching = { ctermfg = c.green_02, bold = true },
-    TelescopePreviewMatch = { ctermbg = c.black_02, ctermfg = c.green_02, bold = true },
+    TelescopeSelectionCaret = { ctermfg = c.yellow, ctermbg = c.black_02, bold = true },
+    TelescopePromptPrefix = { ctermbg = c.black_01, ctermfg = c.yellow },
+    TelescopePromptCounter = { ctermfg = c.yellow, ctermbg = c.black_01},
+    TelescopeMatching = { ctermfg = c.green, bold = true },
+    TelescopePreviewMatch = { ctermbg = c.black_02, ctermfg = c.green, bold = true },
 }
